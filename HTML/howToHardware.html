@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> </title>
+    <link rel="stylesheet" href="../CSS/mainstyle.css" type="text/css" />
+</head>
+
+<body>
+    <!-- Navbar Starts Here -->
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
+    <style>
+        li {
+            font-family: Permanent Marker, Serif;
+        }
+    </style>
+    <ul id="navbar">
+        <li> <a href="../HTML/index.html"> Home </a></li>
+        <li> <a href="../HTML/aboutme.html"> About Me </a></li> 
+        <li> <a href="../HTML/hardware.html"> Hardware </a></li>
+        <li> <a href="../HTML/calculator.html"> Calculator </a></li> 
+        <li> <a href="../HTML/to-do-list.html"> To-do-List </a></li>
+        <li> <a href="../HTML/vindinium.html"> Vindinium </a></li> 
+        <li> <a href="../HTML/bigproject.html"> Big Project </a></li>
+          <li class="dropdown">
+    <a href="../HTML/howTo.html" class="dropbtn">How-To</a>
+    <div class="dropdown-content">
+      <a href="../HTML/howToHardware.html" id="howToDropdownText">Hardware</a>
+      <a href="../HTML/howToCalc.html" id="howToDropdownText">Calculator</a>
+    </div>
+    </ul>
+<center>
+        <h1 id="howToTitleHardware">How-To make a hardware page</h1>
+</center>
+<p id="howToHardwareInfo"> For optimal viewing experience please use 150% Zoom. (hint: ctrl + plus)</p>
+    <div id="howToNavbardesignHardware"></div>
+    <div id="howToBox1main"></div>
+    <img id="howTooBox1pic" src="http://i.imgur.com/kE1Hbtz.png">
+    <div id="howTooBox1v5">
+        <div id="howTooBox1v5Text">
+            <pre>
+CSS:
+#HWH {
+	display: inline-block;
+	padding: 15px;
+	font-family: "Permanent Marker";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 1275px;
+	height: 80px;
+	position: relative;
+	top: 20px;
+	left: 285px;
+}
+            </pre>
+        </div>
+    </div>
+    <div id="howTooBox1v4">
+        <div id="howTooBox1v4Text">
+            <p>
+                Setting the id to "___" is the first step.
+                <br>Having the display set to "inline-block" allows it only to take as much space as it needs. You can also use "block" but it takes up much more space than is needed.
+                <br>Padding is the empty space between the content or the area inside its borders.
+                <br>Font-family is the type font that you want, for example, Arial, Times New Roman, or Sans Serif. In my case I used a custom font, by linking the css of the font. (link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker"
+                />)
+                <br>Font-size is well.. the size of the font. Just like if you were in a Google docs and wanted it to look/be bigger.
+                <br>Font-style adjusts the text for if you want to underline, bold, or italicize something.
+                <br>Font-variant makes the lowercase letters in a word into a capitlized form, but smaller font size.
+                <br>Font-weight property sets the thickness and thinness of the characters of the text.
+                <br>Line-height property adjusts how vertically far apart sentences/words on top of eaach other are from each other.
+                <br>Color.. sets the color of the text.
+                <br>Margin is the empty space around the outside of its borders/of the element.
+                <br>Width property sets how wide something is, from side to side/horizontally.
+                <br>Height property sets the height of an element, such as text, or even an image, from top to bottom/vertically.
+                <br>Position property allows you to select the type of positioning method that you think fits best with what you want. There are 6 different types, static|absolute|fixed|relative|initial|inherit. Here's a link for more info on position
+                "http://www.w3schools.com/cssref/pr_class_position.asp".
+                <br>Top property only functions when there's a position property. It positions the element the amount you specified AWAY from the top of the page/window.
+                <br>Left property only functions when there's a position property. It positions the element the amount you specified AWAY from the left of the page/window. 
+
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox1v3">
+        <div id="howTooBox1v3Text">
+            <p>
+                The p id allows for text to be displayed, in my case I used the p tag because I felt it worked easier for me, but you can use things like an h1 tag if you prefer that.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox1v2">
+        <div id="howTooBox1v2Text">
+            <code>
+                <pre>
+HTML:
+&lt;p id=&quot;HWH&quot;&gt;What makes up a computer?&lt;/p&gt; 
+
+                </pre>
+            </code>
+        </div>
+    </div>
+    <div id="howTooBox2main"></div>
+    <img src="http://i.imgur.com/K76ndZi.png" id="howTooBox2pic">
+    <div id="howTooBox2Box1">
+        <div id="howTooBox2Box1Text">
+            <code>
+               <pre>
+HTML:
+&lt;p id=&quot;HOWTOHOVER&quot;&gt;(hover over the words to get information!)&lt;/p&gt;                   
+               </pre>
+           </code>
+        </div>
+    </div>
+    <div id="howTooBox2Box2">
+        <p id="howTooBox2Box2Text">
+            As said above, you can use an h tag instead of p tag. I changed the font-size, and color in the css, that should be on your right.
+
+        </p>
+    </div>
+    <div id="howTooBox2Box3">
+        <div id="howTooBox2Box3Text">
+            <pre>
+CSS:
+#HOWTOHOVER {
+	display: inline-block;
+	padding: 15px;
+	font-family: "gt_walsheim_regular";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	margin: 0 auto;
+	color: #CD5C5C;
+	position: relative;
+	top: -37.5px;
+	left: 23px;
+}  
+            </pre>
+        </div>
+    </div>
+    <div id="howTooBox2Box4">
+        <p id="howTooBox2Box4Text">
+            I have explained all of this above, but I will point on some sort of new stuff. I created a new id for the text, assigned a new font-family, and used a new css color that I've never used before.
+
+        </p>
+    </div>
+    <div id="howTooBox3main"></div>
+    <img src="http://i.imgur.com/OtmKkfs.png" id="howTooBox3pic">
+    <div id="howTooBox3Box1">
+        <div id="howTooBox3Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;p id=&quot;moboText&quot;&gt;Motherboard&lt;/p&gt; 
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox3Box2">
+        <div id="howTooBox3Box2Text">
+            <p>
+                Also as said above, I set up a p tag for motherboard. I am setting it up for it to slide images and text when hovering. Hint: You'll see it after this.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox3Box3">
+        <div id="howTooBox3Box3Text">
+            <pre>
+CSS:
+#moboText {
+    position: absolute;
+    top:125px;
+    left:-35px;
+    display: inline-block;
+    padding: 30px;
+    font-family: "Permanent Marker";
+    font-size: 42px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: white;
+    margin:40px;
+    border: transparent;
+}
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox3Box4">
+        <div id="howTooBox3Box4Text">
+            <p>
+                As you can see I used positioning to have the text where I wanted. Something new here is that I made the border transparent, essentially turns the border invisible.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox4main"></div>
+    <img src="http://i.imgur.com/GXuxmCJ.png" id="howTooBox4pic">
+    <div id="howTooBox4Box1">
+        <div id="howTooBox4Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;div id=&quot;moboPic&quot;&gt;
+&lt;img id=&quot;moboPic&quot; src=&quot;http://cdn.wccftech.com/wp-content/uploads/2014/08/Gigabyte-GA-X99-Gaming-5-Motherboard.png&quot;/&gt;
+&lt;p id=&quot;moboInfo&quot;&gt; INSERT MOTHERBOARD INFO HERE&lt;/p&gt;
+&lt;/div&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox4Box2">
+        <div id="howTooBox4Box2Text">
+            <p>
+                I set up a div with the id moboPic. The id is going to control both the image and the info inside the text because it's inside of the div assigned with the "moboPic" id.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox4Box3">
+        <div id="howTooBox4Box3Text">
+            <pre>
+#moboPic{
+    position: absolute;
+    height: 467px;
+    width: 340px;
+    top:18%;
+    left:-60%;
+    -webkit-transition: all 1s ease;
+}
+#moboInfo {
+    position: relative;
+    font-family: "gt_walsheim_regular";
+    font-size: 21px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #87cefa;
+    top: 72px;
+    left: 157px;
+    width: 500px;
+}
+#moboText:hover + #moboPic{
+    z-index: -1;
+    left:600px;
+    top: 125px;
+}
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox4Box4">
+        <div id="howTooBox4Box4Text">
+            <p>
+                Transitions allows you to adjust property values in order to create effects such as expanding height or width over a 2 second duration, or as I did "slide" in. For more information on CSS transitions please visit "www.w3schools.com/css_transitions.asp".
+                The other property I will be covering is "z-index". Z-index allows you to adjust the stack order of an element, for example you want to put ___ image behind "HI IM BOB", usually the image will just cover the text, but if you use "z-index:
+                -1;" the image will go behind the text, and both the text and image will be visible. Note: the default z-index is 1.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox5main"></div>
+    <img src="http://i.imgur.com/jufoyDa.png" id="howTooBox5pic">
+    <div id="howTooBox5Box1">
+        <div id="howTooBox5Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;p id=&quot;cpuText&quot;&gt;CPU&lt;/p&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox5Box2">
+        <div id="howTooBox5Box2Text">
+            <p>
+                Created p tag, you can use h# tag. "cpuText" id allows me to adjust the CSS linked to the text/element.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox5Box3">
+        <div id="howTooBox5Box3Text">
+            <pre>
+CSS:
+#cpuText{
+    position: absolute;
+    top:200px;
+    left: 50px;
+    left:-35px;
+    display: inline-block;
+	padding: 30px;
+	font-family: "Permanent Marker";
+	font-size: 42px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+	margin:40px;
+	border: transparent;
+}
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox5Box4">
+        <div id="howTooBox5Box4Text">
+            <p>
+                All of the topics have been discussed above. Note that you can modify these values.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox6main"></div>
+    <img src="http://i.imgur.com/yKSN6Mw.png" id="howTooBox6pic">
+    <div id="howTooBox6Box1">
+        <div id="howTooBox6Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;div id=&quot;cpuPic&quot;&gt;
+&lt;img src=&quot;http://i.imgur.com/NTkFJ1v.png&quot;&gt;
+&lt;p id=&quot;cpuInfo&quot;&gt; INSERT CPU INFO HERE &lt;/p&gt;
+&lt;/div&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox6Box2">
+        <div id="howTooBox6Box2Text">
+            <p>
+                I set up a div with the id 'cpuPic'. The id is going to control both the image and the info inside the text because it's inside of the div assigned with the "cpuPic" id.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox6Box3">
+        <div id="howTooBox6Box3Text">
+            <pre>
+ #cpuPic{
+    position: absolute;
+    width:800px;
+    height:800px;
+    top:18%;
+    left:-90%;
+    -webkit-transition: all 1s ease;
+}
+#cpuInfo {
+    position: absolute;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #87cefa;
+    top: -20px;
+    left: 360px;
+    width: 500px;
+}
+#cpuText:hover + #cpuPic{
+    z-index: -1;
+    left:400px;
+    top: 225px;
+}
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox6Box4">
+        <div id="howTooBox6Box4Text">
+            <p>
+                I will be covering hover, if you want information on the other properties they're all explained above. by putting ":hover" to an id or class, you can give it properities if the element has ":hover", in my case I made it so that when you hovered the word
+                "CPU" the id "cpuPic" would do an CSS transition. You can mix things up obviously.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox7main"></div>
+    <img src="http://i.imgur.com/tJ6rB3D.png" id="howTooBox7pic">
+    <div id="howTooBox7Box1">
+        <div id="howTooBox7Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;p id = &quot;ramText&quot;&gt;RAM&lt;/p&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox7Box2">
+        <div id="howTooBox7Box2Text">
+            <p>
+                Created p tag, you can use h# tag. "ramText" id allows me to adjust the CSS linked to the text/element.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox7Box3">
+        <div id="howTooBox7Box3Text">
+            <pre>
+#ramText{
+    position: absolute;
+    top:275px;
+    left:-35px;
+    display: inline-block;
+	padding: 30px;
+	font-family: "Permanent Marker";
+	font-size: 42px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+	margin:40px;
+	border: transparent;
+}    
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox7Box4">
+        <div id="howTooBox7Box4Text">
+            <p>
+                All of the "hardwareText", and hardware representing cpu, ram, etc. Use the same format/template.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox8main"></div>
+    <img src="http://i.imgur.com/AY41YkY.png" id="howTooBox8pic">
+    <div id="howTooBox8Box1">
+        <div id="howTooBox8Box1Text">
+            <code>
+                 <pre>
+&lt;div id=&quot;ramPic&quot;&gt;
+&lt;img id=&quot;ramPic&quot; src=&quot;http://www.freeiconspng.com/uploads/blocks-ram-icon--0.png&quot;&gt;
+&lt;p id=&quot;ramInfo&quot;&gt; INSERT RAM INFO HERE.&lt;/p&gt;
+&lt;/div&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox8Box2">
+        <div id="howTooBox8Box2Text">
+            <p>
+                I set up a div with the id 'ramPic'. The id is going to control both the image and the info inside the text because it's inside of the div assigned with the "ramPic" id.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox8Box3">
+        <div id="howTooBox8Box3Text">
+            <pre>
+#ramPic{
+    position: absolute;
+    width:55%;
+    height:80%;
+    top:18%;
+    left:-60%;
+    -webkit-transition: all 1s ease;
+}
+#ramInfo {
+    position: relative;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #87cefa;
+    top: 100px;
+    left: -39.5px;
+    width: 500px;
+}
+#ramText:hover + #ramPic{
+    z-index: -1;
+    left:775px;
+    top: 75px;
+}     
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox8Box4">
+        <div id="howTooBox8Box4Text">
+            <p>
+                We'll revisit a topic. By having the id/class have ":hover", it allows the "ramText" when hovered to use any effects of "ramPic" in my case I used a "webkit-transition:" to create the effect of the image "sliding in". The image itself is positioned -60%
+                outside of the view of your screen.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox9main"></div>
+    <img src="http://i.imgur.com/RFE21MO.png" id="howTooBox9pic">
+    <div id="howTooBox9Box1">
+        <div id="howTooBox9Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;p id=&quot;harddriveText&quot;&gt;Hard Drive&lt;/p&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox9Box2">
+        <div id="howTooBox9Box2Text">
+            <p>
+                Created p tag, you can use h# tag. "harddriveext" id allows me to adjust the CSS linked to the text/element.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox9Box3">
+        <div id="howTooBox9Box3Text">
+            <pre>
+#harddriveText{
+    position: absolute;
+    top:350px;
+    left:-35px;
+    display: inline-block;
+	padding: 30px;
+	font-family: "Permanent Marker";
+	font-size: 42px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+	margin:40px;
+	border: transparent;
+}                  
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox9Box4">
+        <div id="howTooBox9Box4Text">
+            <p>
+                REVIEW TIME! Setting the id to "___" is the first step.
+                <br>Having the display set to "inline-block" allows it only to take as much space as it needs. You can also use "block" but it takes up much more space than is needed.
+                <br>Padding is the empty space between the content or the area inside its borders.
+                <br>Font-family is the type font that you want, for example, Arial, Times New Roman, or Sans Serif. In my case I used a custom font, by linking the css of the font. (link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker"
+                />)
+                <br>Font-size is well.. the size of the font. Just like if you were in a Google docs and wanted it to look/be bigger.
+                <br>Font-style adjusts the text for if you want to underline, bold, or italicize something.
+                <br>Font-variant makes the lowercase letters in a word into a capitlized form, but smaller font size.
+                <br>Font-weight property sets the thickness and thinness of the characters of the text.
+                <br>Line-height property adjusts how vertically far apart sentences/words on top of eaach other are from each other.
+                <br>Color.. sets the color of the text.
+                <br>Margin is the empty space around the outside of its borders/of the element.
+                <br>Width property sets how wide something is, from side to side/horizontally.
+                <br>Height property sets the height of an element, such as text, or even an image, from top to bottom/vertically.
+                <br>Position property allows you to select the type of positioning method that you think fits best with what you want. There are 6 different types, static|absolute|fixed|relative|initial|inherit. Here's a link for more info on position
+                "http://www.w3schools.com/cssref/pr_class_position.asp".
+                <br>Top property only functions when there's a position property. It positions the element the amount you specified AWAY from the top of the page/window.
+                <br>Left property only functions when there's a position property. It positions the element the amount you specified AWAY from the left of the page/window. 
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox10main"></div>
+    <img src="http://i.imgur.com/qyZOZXv.png" id="howTooBox10pic">
+    <div id="howTooBox10Box1">
+        <div id="howTooBox10Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;div id=&quot;harddrivePic&quot;&gt;
+&lt;img id=&quot;harddrivePic&quot;src=&quot;http://i.imgur.com/KaqsC4t.png&quot;/&gt;
+&lt;p id=&quot;harddriveInfo&quot;&gt; INSERT HARD DRIVE INFO &lt;/p&gt;
+&lt;/div&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox10Box2">
+        <div id="howTooBox10Box2Text">
+            <p>
+                I set up a div with the id 'harddrivePic'. The id is going to control both the image and the info inside the text because it's inside of the div assigned with the "harddrivePic" id.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox10Box3">
+        <div id="howTooBox10Box3Text">
+            <pre>
+CSS:
+#harddrivePic {
+    position: absolute;
+    width:356px;
+    height: 356px;
+    top:18%;
+    left:-80%;
+    -webkit-transition: all 1s ease;
+}
+#harddriveInfo {
+    position: relative;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #87cefa;
+    top: 65px;
+    left: 50px;
+    width: 500px;
+}
+#harddriveText:hover + #harddrivePic{
+    z-index: -1;
+    left:715px;
+    top: 115px;
+}                  
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox10Box4">
+        <div id="howTooBox10Box4Text">
+            <p>
+                All of the CSS follows a kind of template/format.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox11main"></div>
+    <img src="http://i.imgur.com/dsoZw5N.png" id="howTooBox11pic">
+    <div id="howTooBox11Box1">
+        <div id="howTooBox11Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;p id=&quot;busText&quot;&gt;Computer Comms&lt;/p&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox11Box2">
+        <div id="howTooBox11Box2Text">
+            <p>
+                Created p tag, you can use h# tag. "harddriveext" id allows me to adjust the CSS linked to the text/element.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox11Box3">
+        <div id="howTooBox11Box3Text">
+            <pre>
+CSS:
+#busText{
+    position: absolute;
+    top:425px;
+    left:-35px;
+    display: inline-block;
+	padding: 30px;
+	font-family: "Permanent Marker";
+	font-size: 42px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+	margin:40px;
+	border: transparent;
+}  
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox11Box4">
+        <div id="howTooBox11Box4Text">
+            <p>
+                All of this CSS follows a template/format.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox12main"></div>
+    <img src="http://i.imgur.com/cIw3lyB.png" id="howTooBox12pic">
+    <div id="howTooBox12Box1">
+        <div id="howTooBox12Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;div id=&quot;busPic&quot;&gt;
+&lt;img id=&quot;busPic&quot;src=&quot;http://i.imgur.com/Xm5l5TK.png&quot;&gt;
+&lt;p id=&quot;busInfo&quot;&gt;INSERT BUS INFO HERE&lt;/p&gt;
+                &lt;/div&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox12Box2">
+        <div id="howTooBox12Box2Text">
+            <p>
+                I set up a div with the id 'busPic'. The id is going to control both the image and the info inside the text because it's inside of the div assigned with the "busPic" id.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox12Box3">
+        <div id="howTooBox12Box3Text">
+            <pre>
+CSS:
+#busPic {
+    position: absolute;
+    width:426.666666667px;
+    height: 312.666666667px;
+    top:18%;
+    left:-80%;
+    -webkit-transition: all 1s ease;
+}
+#busInfo {
+    position: relative;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #87cefa;
+    top: 50px;
+    left: 100px;
+    width: 500px;
+}
+#busText:hover + #busPic{
+    z-index: -1;
+    left:660px;
+    top: 135px;
+}                  
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox12Box4">
+        <div id="howTooBox12Box4Text">
+            <p>
+                All of the CSS follows a kind of template/format.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox13main"></div>
+    <img src="http://i.imgur.com/DNkk2pE.png" id="howTooBox13pic">
+    <div id="howTooBox13Box1">
+        <div id="howTooBox13Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;p id=&quot;peripheralText&quot;&gt;Peripherals&lt;/p&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox13Box2">
+        <div id="howTooBox13Box2Text">
+            <p>
+                Created p tag, you can use h# tag. "peripheralText" id allows me to adjust the CSS linked to the text/element.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox13Box3">
+        <div id="howTooBox13Box3Text">
+            <pre>
+CSS:
+#peripheralText{
+    position: absolute;
+    top:500px;
+    left:-35px;
+    display: inline-block;
+	padding: 30px;
+	font-family: "Permanent Marker";
+	font-size: 42px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+	color: white;
+	margin:40px;
+	border: transparent;
+}                  
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox13Box4">
+        <div id="howTooBox13Box4Text">
+            <p>
+                All the CSS follows a template/format.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox14main"></div>
+    <img src="http://i.imgur.com/anLsPet.png" id="howTooBox14pic">
+    <div id="howTooBox14Box1">
+        <div id="howTooBox14Box1Text">
+            <code>
+                 <pre>
+HTML:
+&lt;div id=&quot;peripheralPic&quot;&gt;
+&lt;img id=&quot;peripheralPic&quot;src=&quot;http://i.imgur.com/pAjhBiy.png&quot;&gt;
+&lt;p id=&quot;peripheralInfo&quot;&gt;
+                 </pre>
+             </code>
+        </div>
+    </div>
+    <div id="howTooBox14Box2">
+        <div id="howTooBox14Box2Text">
+            <p>
+                I set up a div with the id 'peripheralsPic'. The id is going to control both the image and the info inside the text because it's inside of the div assigned with the "peripheralsPic" id.
+            </p>
+        </div>
+    </div>
+    <div id="howTooBox14Box3">
+        <div id="howTooBox14Box3Text">
+            <pre>
+#peripheralPic {
+    position: absolute;
+    width: 296.65px;
+    height: 509.85px;
+    top:1%;
+    left:-100%;
+    -webkit-transition: all 1s ease;
+}
+#peripheralInfo {
+    position: relative;
+    font-family: "gt_walsheim_regular";
+    font-size: 20px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+    color: #87cefa;
+    top: 5px;
+    left: -10px;
+    width: 500px;
+}
+#peripheralText:hover + #peripheralPic{
+    z-index: -1;
+    left:725px;
+    top: 135px;
+}                   
+              </pre>
+        </div>
+    </div>
+    <div id="howTooBox14Box4">
+        <div id="howTooBox14Box4Text">
+            <p>
+                RECAP TIME! Setting the id to "___" is the first step.
+                <br>Having the display set to "inline-block" allows it only to take as much space as it needs. You can also use "block" but it takes up much more space than is needed.
+                <br>Padding is the empty space between the content or the area inside its borders.
+                <br>Font-family is the type font that you want, for example, Arial, Times New Roman, or Sans Serif. In my case I used a custom font, by linking the css of the font. (link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker"
+                />)
+                <br>Font-size is well.. the size of the font. Just like if you were in a Google docs and wanted it to look/be bigger.
+                <br>Font-style adjusts the text for if you want to underline, bold, or italicize something.
+                <br>Font-variant makes the lowercase letters in a word into a capitlized form, but smaller font size.
+                <br>Font-weight property sets the thickness and thinness of the characters of the text.
+                <br>Line-height property adjusts how vertically far apart sentences/words on top of eaach other are from each other.
+                <br>Color.. sets the color of the text.
+                <br>Margin is the empty space around the outside of its borders/of the element.
+                <br>Width property sets how wide something is, from side to side/horizontally.
+                <br>Height property sets the height of an element, such as text, or even an image, from top to bottom/vertically.
+                <br>Position property allows you to select the type of positioning method that you think fits best with what you want. There are 6 different types, static|absolute|fixed|relative|initial|inherit. Here's a link for more info on position
+                "http://www.w3schools.com/cssref/pr_class_position.asp".
+                <br>Top property only functions when there's a position property. It positions the element the amount you specified AWAY from the top of the page/window.
+                <br>Left property only functions when there's a position property. It positions the element the amount you specified AWAY from the left of the page/window. 
+                <br>Z-index allows you to adjust the stack order of an element, for example you want to put ___ image behind "HI IM BOB", usually the image will just cover the text, but if you use "z-index: -1;" the image will go behind the text, and
+                both the text and image will be visible. Note: the default z-index is 1.
+                <br>Transitions allows you to adjust property values in order to create effects such as expanding height or width over a 2 second duration, or as I did "slide" in. For more information on CSS transitions please visit "www.w3schools.com/css_transitions.asp".
+            </p>
+        </div>
+    </div>
+    <!-- Navbar Ends Here -->
+
+
+
+</body>
+
+</html>

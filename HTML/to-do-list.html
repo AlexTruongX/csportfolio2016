@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> </title>
+           <link rel="stylesheet" href="../CSS/mainstyle.css" type="text/css" />
+           <link rel="stylesheet" href="../CSS/to-do-list.css" type ="text/css"/>
+    </head>
+    <body>
+    <!-- Navbar Starts Here -->
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
+    <style>
+        li {
+            font-family: Permanent Marker, Serif;
+        }
+        
+    </style>
+    <ul id="navbar" style="position: relative; top: 7.5px;">
+        <li> <a href="index.html"> Home </a></li>
+        <li> <a href="aboutme.html"> About Me </a></li> 
+        <li> <a href="hardware.html"> Hardware </a></li>
+        <li> <a href="calculator.html"> Calculator </a></li> 
+        <li> <a href="to-do-list.html"> To-do-List </a></li>
+        <li> <a href="vindinium.html"> Vindinium </a></li> 
+        <li> <a href="bigproject.html"> Big Project </a></li>
+                  <li class="dropdown">
+    <a href="howTo.html" class="dropbtn" >How-To</a>
+    <div class="dropdown-content" style="position: fixed; top: 50px;">
+      <a href="howToHardware.html" id="howToDropdownText" style="position: fixed; top: 50px;">Hardware</a>
+      <a href="howToCalc.html" id="howToDropdownText" style="position: fixed; top: 95px;">Calculator</a>
+    </div>
+    </ul>
+            <div id="navbardesigntdlist"></div>
+<center>
+            <p id="toDoListHeader">To-Do List</p>
+    <center>
+        <div id="toDoListBackground">
+            <div id="toDoList">
+                <p>
+                    <label for="new-task">Add Item</label><input id="new-task" type="text"><button><strong>Add</strong></button>
+                </p>
+
+                <h3>To-do</h3>
+                <ul id="important-task">
+                    
+                </ul>
+                <ul id="incomplete-tasks">
+                    <br>
+                </ul>
+
+                <h3>Completed</h3>
+                <ul id="importantCompleted-tasks">
+                    
+                </ul>
+                <ul id="completed-tasks">
+                    <br>
+                    <br>
+                </ul>
+            </div>
+        </div>
+    </center>
+        <script type="text/javascript" src="../JavaScript/to-do-list.js"></script>
+</center>
+    <!-- Navbar Ends Here -->
+    
+    
+    
+    </body>
+</html>

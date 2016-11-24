@@ -1,0 +1,1978 @@
+#navbar {
+	background-color: transparent;
+	text-align: center;
+	position: relative;
+}
+
+#navbar a {
+	text-decoration: none;
+	color: white;
+	position: relative;
+}
+
+#navbar li {
+	display: inline-block;
+	padding: 15px;
+	font-family: "gt_walsheim_regular";
+	font-size: 22px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+#navbar li a:hover {
+	color: 	#AFEEEE;
+}
+body {
+	background: url("http://i.imgur.com/vrOY9q0.jpg") no-repeat center center fixed;
+	height: 1vh;
+	background-size: cover;
+}
+#WTMW {
+	display: inline-block;
+	padding: 15px;
+	font-family: "Permanent Marker";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 50px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 710px;
+	height: 63px;
+	text-align: center;
+	position: relative;
+	z-index: 1;
+}
+
+#WTMWSUB {
+	display: inline-block;
+	padding: 10px;
+	font-family: "Permanent Marker";
+	font-size: 35px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 1px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 400px;
+	height: 2px;
+	text-align: center;
+}
+
+#WAI {
+	display: inline-block;
+	padding: 15px;
+	font-family: "Permanent Marker";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 1150px;
+	height: 50px;
+	text-align: center;
+	position: relative;
+}
+
+#ABOUTMEQ {
+	display: inline-block;
+	padding: 15px;
+	font-family: "gt_walsheim_regular";
+	font-size: 19px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	color: white;
+	margin: 0 auto;
+	display: block;
+	position: relative;
+}
+
+#ABOUTMEA {
+	display: inline-block;
+	padding: 1px;
+	font-family: "gt_walsheim_regular";
+	font-size: 17px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 16px;
+	display: block;
+	color: #87cefa;
+	margin: 0 auto;
+	position: relative;
+}
+
+#HWH {
+	display: inline-block;
+	padding: 15px;
+	font-family: "Permanent Marker";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 1275px;
+	height: 80px;
+
+}
+#youtubeIndex {
+	position: relative; 
+	z-index: -99;
+	width: 0%;
+	height: 0%;
+	display: none;
+}
+#navbardesignaboutme {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -790px;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+#navbardesignbigproject {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -82.5px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+#navbardesigncalculator {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -284.5px;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+#navbardesignhardware {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -237.5px;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+#navbardesignindex {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -204.5px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+#navbardesigntdlist {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -61.65px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+#navbardesignvindinium {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -82.5px;
+  width: 100%;
+  position: relative;
+  z-index: -1;
+}
+#navbardesignhowTo {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -238.5px;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+.float> * {
+	float: left;
+	margin-right: 5px white;
+}
+
+
+
+body> div {
+	border: 500px #87cefa;
+	margin-bottom: 10px;
+}
+#aboutmeimg {
+	float: left;
+	position: relative;
+	height: 650px;
+	width: 480px;
+	border: 0px;
+}
+@font-face {
+    font-family: 'gt_walsheim_regular';
+    src: url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.eot');
+    src: url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.woff') format('woff'),
+         url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.ttf') format('truetype'),
+         url('https://s3.amazonaws.com/cocoapods/fonts/gt-walsheim-bold-web.svg#gt_walsheim_bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+#HOWTOHOVER {
+	display: inline-block;
+	padding: 15px;
+	font-family: "gt_walsheim_regular";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	margin: 0 auto;
+	color: #CD5C5C;
+	position: relative;
+	top: -37.5px;
+	left: 23px;
+}
+#HOWTOTITLE {
+	display: inline-block;
+	padding: 15px;
+	font-family: "Permanent Marker";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 50px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 710px;
+	height: 63px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	z-index: 1;
+}
+#howToHardwareTip
+/*Box 1 starts here */
+#howToBox1main {
+    	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+}
+#howTooBox1v5 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -49px;
+	left: 826px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox1v4 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -320.5px;
+	left: 1038px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox1v3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -591.5px;
+	left: 605px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox1v2{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -862.5px;
+	left: 393.5px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox1pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 232.5px;
+}
+#howTooBox1v2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 100%;
+	height: 250px;
+	position: relative;
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox1v3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+  top: -15px;
+}
+#howTooBox1v4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox1v5Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	overflow-x: auto;
+	top: -15px;
+}
+/*Box1 ends here */
+/*Box2 starts here */
+#howTooBox2main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 575px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+}
+#howTooBox2pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 610px;
+}
+#howTooBox2Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -757.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox2Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -1029px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox2Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -1300px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox2Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -1571.25px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox2Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox2Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox2Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox2Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 2 starts here */
+/* Box 3 ends here */
+#howTooBox3main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 950px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+}
+#howTooBox3pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 975px;
+}
+#howTooBox3Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -1468.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox3Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -1740.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox3Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -2012.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox3Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -2284.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox3Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox3Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox3Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox3Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 3 ends here */
+/* Box 4 starts here */
+#howTooBox4main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 1325px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+}
+#howTooBox4pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 1350px;
+}
+#howTooBox4Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -2168.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox4Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -2440.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox4Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -2712.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox4Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -2984.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox4Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox4Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox4Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox4Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 4 ends here */
+/* Box 5 starts here */
+#howTooBox5main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 1700px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+}
+#howTooBox5pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 1725px;
+}
+#howTooBox5Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -2888.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox5Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -3160.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox5Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -3432.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox5Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -3704.25px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox5Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox5Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox5Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox5Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/*Box 5 ends here */
+/*Box 6 starts here */
+#howTooBox6main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 2075px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+}
+#howTooBox6pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 2112.5px;
+}
+#howTooBox6Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -3595.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox6Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -3867.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox6Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -4139.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox6Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -4410.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox6Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox6Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox6Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox6Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 6 ends here */
+/* Box 7 starts here */
+#howTooBox7main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 2450px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+	z-index: -1;
+}
+#howTooBox7pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 2475.5px;
+}
+#howTooBox7Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -4308.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox7Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -4580.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox7Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -4852.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox7Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -5125.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox7Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox7Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox7Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox7Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 7 ends here */
+/* Box 8 starts here */
+#howTooBox8main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 2825px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+	z-index: -1;
+}
+#howTooBox8pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 2855.5px;
+}
+#howTooBox8Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -5017.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox8Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -5289.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox8Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -5560.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox8Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -5832.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox8Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox8Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox8Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox8Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 8 ends here */
+/* Box 9 starts here */
+#howTooBox9main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 3200px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+	z-index: -1;
+}
+#howTooBox9pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 3225.5px;
+}
+#howTooBox9Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -5727.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox9Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -5999.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox9Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -6271px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox9Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -6542.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox9Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox9Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox9Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox9Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 9 ends here */
+/* Box 10 starts here */
+#howTooBox10main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 3575px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+	z-index: -1;
+}
+#howTooBox10pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 3602.5px;
+}
+#howTooBox10Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -6437.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox10Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -6709.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox10Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -6980.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox10Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -7252.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox10Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox19Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox10Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox10Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 10 ends here */
+/* Box 11 starts here */
+#howTooBox11main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 3950px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+	z-index: -1;
+}
+#howTooBox11pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 3980.5px;
+}
+#howTooBox11Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -7149.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox11Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -7420.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox11Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -7692.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox11Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -7964.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox11Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox11Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox11Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox11Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 11 ends here */
+/* Box 12 starts here */
+#howTooBox12main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 4325px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+	z-index: -1;
+}
+#howTooBox12pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 4350.5px;
+}
+#howTooBox12Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -7857.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox12Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -8128.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox12Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -8400.5px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox12Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -8672px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox12Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox12Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox12Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox12Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 12 ends here */
+/* Box 13 ends here */
+#howTooBox13main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 4700px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+	z-index: -1;
+}
+#howTooBox13pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 4725.5px;
+}
+#howTooBox13Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -8570.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox13Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -8842.5px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox13Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -9115px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox13Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -9386.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox13Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox13Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox13Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox13Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+/* Box 13 ends here */
+/* Box 14 starts here */
+#howTooBox14main {
+	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 5075px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+	z-index: -1;
+}
+#howTooBox14pic {
+	height: 250px;
+	width: 385px;
+	position: absolute;
+	top: 5107.5px;
+}
+#howTooBox14Box1 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -9277.5px;
+	left: 395px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox14Box2 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -9549px;
+	left: 610px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox14Box3 {
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -9820px;
+	left: 830px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox14Box4{
+	background-color: #696969;
+	width: 200px;
+	height: 250px;
+	position: relative;
+	border: gray 5px solid;
+	top: -10092.5px;
+	left: 1045px;
+	border-radius: 2.5px;
+	padding: 1px;
+	overflow-y: auto;
+	overflow-x: auto;
+}
+#howTooBox13Box1Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox14Box2Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox13Box3Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#howTooBox14Box4Text {
+	font-family: Times;
+	font-size: 14px;
+	width: 180px;
+	height: 250px;
+	position: relative;
+	top: -15px;
+}
+#backgroundMusic {
+	display: none;
+}
+#howToHardwareLink {
+	font-family: gt_walsheim_bold;
+	font-size: 14px;
+}
+#howToQuestion {
+	font-family: gt_walsheim_bold;
+	position: relative;
+	top: 17px;
+	text-align: center;
+}
+#howToHardwareImg {
+	width: 455.333333px;
+	height: 250px;
+	position: relative;
+	left: 210px;
+}
+.dropdown-content {
+    display: none;
+    position: fixed;
+    background-color: transparent;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    z-index: 2;
+}
+
+.dropdown-content a:hover {background-color: transparent}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+
+}
+#howToDropdownText {
+	color: black;
+	font-family: gt_walsheim_regular;
+	position: relative ;
+	font-size: 14px ;
+}
+#howToNavbardesign {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -82px;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+#howToNavbardesignHardware {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -164.5px;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+#calcInfoText {
+	font-family: gt_walsheim_regular;
+	font-size: 55px;
+	color: white;
+	text-align: center;
+	position: relative;
+	top: -60px;
+}
+
+select {
+ height: 2em;
+ text-align: center;
+ border-radius: 33px;
+ width: 100px;
+}
+#calcHeader {
+	display: inline-block;
+	font-family: "Permanent Marker";
+	font-size: 60px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 30px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 500px;
+	height: 80px;
+	position: relative;
+	top: 1em;
+}
+#calcSubHeader {
+	display: inline-block;
+	font-family: "gt_walsheim_regular";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	margin: 0 auto;
+	color: #CD5C5C;
+	position: relative;
+	top: -280px;
+}
+#calcRoundInput {
+	border-radius: 33px;
+}
+#howToBox1main {
+    	background: black;
+	width: 1279px;
+	height: 300px;
+	position: absolute;
+	top: 200px;
+	left: 0px;
+	border-top:  5px solid #ccc;
+	border-bottom: 5px solid #ccc;
+	opacity: 0.5;
+}
+#howToHardwareInfo {
+	display: inline-block;
+	font-family: "gt_walsheim_regular";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	margin: 0 auto;
+	color: #CD5C5C;
+    position: relative;
+    left: 35%;
+    top: 10px;
+}
+#howToPageImgDirectHardware {
+	position: relative;
+	width: 455.333333px;
+	height: 250px;
+	left: 5%;
+}
+#howToTitleHardware {
+	display: inline-block;
+	font-family: "Permanent Marker";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 50px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 1000px;
+	height: 63px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+	z-index: 1;
+}
+#howToTitle {
+  	display: block;
+	font-family: "Permanent Marker";
+	font-size: 50px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 50px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 710px;
+	height: 63px;
+	position: relative;
+	top: -55px;
+}
+#howToMainHardwareTitle {
+	color: #FFFACD;
+	font-family: "gt_walsheim_regular";
+	font-size: 17px;
+	position: relative;
+	top: -260px;
+	left: 22.2%;
+}
+#howToMainHeader {
+	display: inline-block;
+	font-family: "gt_walsheim_regular";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	margin: 0 auto;
+	color: #CD5C5C;
+    position: relative;
+    top: -55px;
+}
+#howToCalcNavbarDesign {
+  height: 3em;
+  padding-top: 2em;
+  opacity: 0.5;
+  background: black;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+  top: -82.5px;
+  width: 100%;
+  position: relative;
+  z-index: -2;
+}
+#calcNavbarDesignFix {
+	position: relative;
+	top: -27.5px;
+}
+#howToCalcHeader {
+	display: block;
+	font-family: "Permanent Marker";
+	font-size: 50px;
+	font-weight: 400;
+	line-height: 50px;
+	color: #98FB98;
+	margin: 0 auto;
+	width: 710px;
+	height: 63px;
+	position: relative;
+	top: -75px;
+	text-align: center;
+}
