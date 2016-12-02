@@ -217,3 +217,18 @@
       font-family: Lato, sans-serif;
       font-weight: bold;
     }
+    #toDoListInfo {
+     display: inline-block;
+	   font-family: "gt_walsheim_regular";
+	   font-size: 14px;
+	   font-style: normal;
+	   font-variant: normal;
+	   font-weight: 400;
+	   line-height: 15px;
+	   margin: 0 auto;
+	   color: #CD5C5C;
+     position: relative;
+     text-align: center;
+     top: -30px;
+}
+  

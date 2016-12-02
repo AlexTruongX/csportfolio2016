@@ -225,7 +225,7 @@ input[type=text] {
   cursor: pointer;
   user-select: none;
   /*Smoothing out hover and active states using css3 transitions */
-  transition: all 0.2s ease;
+  transition: all 0.3s ease;
 }
 
 .numbers:hover {
@@ -239,7 +239,6 @@ input[type=text] {
   top: 4px;
 }
 
-
 /* Equal Button */
 
 .equals {
@@ -249,6 +248,7 @@ input[type=text] {
   border-radius: 3px;
   cursor: pointer;
   user-select: none;
+  transition: all 0.2s ease;
 }
 
 .equals:hover {
@@ -260,7 +260,8 @@ input[type=text] {
 
 .equals:active {
   top: 4px;
-  box-shadow: 0px 0px #d3545d;
+  box-shadow: 0px 0px #535a26;
+  border-radius: 3px;
 }
 
 #howToUseCalc {

@@ -23,22 +23,22 @@ function assignEventListenerOperator(htmlObj, index) {  //The operators are assi
     });
 }
 
-// This For loop is for repeated usage of operators, et. Multiplication, addition, etc
+//  For operators, it runs the same code over and over again, registers that you clicked/put an operator (+,-,×,÷) and enters it into the "equation"
 for (var i = 0; i < operators.length; i++) {
     assignEventListenerOperator(operators[i], operators[i].value);
 }
-//This for loop is for repeated usage of numbers 1 through 9 
+// For numbers 1 through 9, it will run the same code over and over again, registers that you clicked/put in a number 1-9 and enters it into the "equation"
 for (var i = 0; i < numbers.length; i++) {
     assignEventListenerNumber(numbers[i], numbers[i].value);
 }
 
 //Calculates the math inputed in the screen upon equal button click
-if (equal.addEventListener("click", function() { // I
+if (equal.addEventListener("click", function() { // If there are actual values/applicable values it will calculate all of it, and then appear on the display
         display.value = eval(display.value)
     }));
 
 //Clears the screen/display when the "CE" button is clicked 
-clear.addEventListener("click", function() { // Basically = clear button, when clicked it will perform a function, the function is to change the display value to " " which is nothing. 
+clear.addEventListener("click", function() { // Basically is a clear button, when clicked it will perform a function, the function is to change the display value to " " which is nothing. 
     display.value = "" 
 })
 
