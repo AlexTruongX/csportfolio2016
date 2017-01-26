@@ -1,0 +1,78 @@
+body {
+    overflow: hidden;
+}
+.Title {
+    color: white;
+    font-family: "gt_walsheim_regular";
+    font-size: 35px;
+    text-align: left;
+    position: relative;
+    left: 100px;
+    width: 40px;
+    top: -75px;
+    
+}
+.Title:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+}
+.titleSelected {
+    font-family: "gt_walsheim_regular";
+    text-decoration: underline;
+    color: #F08080;
+}
+.visible {
+    color: #87CEFA;
+    font-family: "gt_walsheim_regular";
+}
+#htmlHeaders {
+    display: none;
+    position: relative;
+    left: 212.5px;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+    color: white;
+    top: -225px;
+    vertical-align: middle;
+    align-items: center;
+    padding:10px 10px;
+    width: 100px;
+    line-height: 50px;
+
+}
+
+.allHeaders:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+}
+#htmlHeader1Info {
+    display: none;
+}
+#htmlHeader2Info {
+    display: none;
+}
+#htmlHeader3Info {
+    display: none;
+}
+#htmlHeader4Info {
+    display: none;
+}
+#text {
+    font-family: "gt_walsheim_regular";
+    font-size: 14px;
+    color: #87CEFA;
+    position: relative;
+    top: -440px;
+    left: 650px;
+}
+#code {
+    position: absolute;
+    top: 200px;
+    left: 345px;
+}
+#result {
+    position: absolute;
+    top: 190px;
+    left: 1150px;
+}
