@@ -1976,7 +1976,7 @@ body>div {
 	display: none;
 	position: fixed;
 	background-color: transparent;
-	min-width: 160px;
+	width: 50px;
 	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -1984,22 +1984,26 @@ body>div {
 	color: black;
 	padding: 12px 16px;
 	text-decoration: none;
-	display: block;
+	display: inline;
 	text-align: left;
 	z-index: 2;
 }
 
 .dropdown-content a:hover {
-	background-color: transparent
+	background-color: transparent;
+	line-height: 50px;
+	vertical-align: middle;
 }
 
 .dropdown:hover .dropdown-content {
 	display: block;
+	line-height: 50px;
+	vertical-align: middle;
 }
 
 #howToDropdownText {
 	color: black;
-	font-family: gt_walsheim_regular;
+	font-family: "gt_walsheim_regular";
 	position: relative;
 	font-size: 14px;
 }
@@ -2031,7 +2035,7 @@ body>div {
 }
 
 #calcInfoText {
-	font-family: gt_walsheim_regular;
+	font-family: "gt_walsheim_regular";
 	font-size: 55px;
 	color: white;
 	text-align: center;
@@ -2111,7 +2115,7 @@ select {
 	position: relative;
 	width: 455.333333px;
 	height: 250px;
-	left: 5%;
+	left: 50px;
 }
 
 #howToTitleHardware {
@@ -2169,6 +2173,23 @@ select {
 	color: #CD5C5C;
 	position: relative;
 	top: -55px;
+	left: 225px;
+}
+
+#howToMainHeader2 {
+	display: inline-block;
+	font-family: "gt_walsheim_regular";
+	font-size: 13px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 15px;
+	margin: 0 auto;
+	color: #CD5C5C;
+	position: relative;
+	top: -35px;
+	left: -185px;
+	text-align: center;
 }
 
 #howToCalcNavbarDesign {
@@ -2202,4 +2223,18 @@ select {
 	position: relative;
 	top: -75px;
 	text-align: center;
+}
+#howToPageImgDirectCalc {
+	position: relative;
+	width: 455.333333px;
+	height: 250px;
+	left: 300px;
+}
+#howToMainCalcTitle {
+	color: #FFFACD;
+	font-family: "gt_walsheim_regular";
+	font-size: 17px;
+	position: absolute;
+	top: 232.5px;
+	left: 1060px;
 }
