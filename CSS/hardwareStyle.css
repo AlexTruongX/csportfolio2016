@@ -1,6 +1,7 @@
 /*Motherboard starts here*/
 html {
     overflow-y: hidden;
+    overflow-x: hidden;
 }
 #moboText{
     position: absolute;

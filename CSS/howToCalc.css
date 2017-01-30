@@ -99,3 +99,11 @@ p {
     left: 730px;
     top: -425px;
 }
+#howToCalcSubHeader {
+	color: #CD5C5C;
+	font-size: 12px;
+	font-family : "gt_walsheim_regular";
+	position: absolute;
+	left: 635px;
+	top: 160px;
+}
