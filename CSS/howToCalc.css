@@ -27,12 +27,12 @@ body {
 }
 #htmlHeaders {
     display: none;
-    position: relative;
-    left: 212.5px;
+    position: absolute;
+    top: 175px;
+    left: 219px;
     font-family: "gt_walsheim_regular";
     font-size: 25px;
     color: white;
-    top: -225px;
     vertical-align: middle;
     align-items: center;
     padding:10px 10px;
@@ -40,7 +40,18 @@ body {
     line-height: 50px;
 
 }
-
+#jsHeaders {
+    display: none;
+    position: absolute;
+    top: 185px;
+    left: 229px;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+    color: white;
+    vertical-align: middle;
+    width: 100px;
+    line-height: 50px;
+}
 .allHeaders:hover {
     color: #F08080;
     font-family: "gt_walsheim_regular";
@@ -60,11 +71,12 @@ body {
 }
 #text {
     font-family: "gt_walsheim_regular";
-    font-size: 14px;
+    font-size: 15px;
     color: #87CEFA;
     position: relative;
-    top: -440px;
+    top: -205px;
     left: 650px;
+    width: 475px;
 }
 #code {
     position: absolute;
@@ -75,4 +87,15 @@ body {
     position: absolute;
     top: 190px;
     left: 1150px;
+}
+p {
+    width: 475px;
+}
+#textJs {
+    font-family: "gt_walsheim_regular";
+    font-size: 16px;
+    color: #87CEFA;
+    position: relative;
+    left: 730px;
+    top: -425px;
 }

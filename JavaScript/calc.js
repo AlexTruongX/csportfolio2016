@@ -8,47 +8,47 @@ var equal = document.getElementById("equal");      // Makes everything with the 
 var clear = document.getElementById("clear");      // Makes everything with the id clear into the variable "clear".
 var sqrt = document.getElementById("sqrt");      // Makes everything with the id sqrt into the variable "sqrt".
 
-// Listens for numbers 1 - 9 click and registers it then displays it onto the screen. 
-function assignEventListenerNumber(htmlObj, index) { 
+// Listens for numbers 1 - 9 click and registers it then displays it onto the screen. Also mainly used to display the clicked number onto the screen. Determines/pulls the value of the button that was clicked.
+function Numbers(htmlObj, index) { 
     htmlObj.addEventListener("click", function() { 
-        display.value += index; //Displays the value onto the variable "display"
+        display.value += index; //Displays/adds the inputed number onto the display/screen. 
             //alert(numbers)
     });
 }
 
-// Operators et. multiplication divison, subtraction, addition
-function assignEventListenerOperator(htmlObj, index) {  //The operators are assigned an event listener
-    htmlObj.addEventListener("click", function() { // The htmlObj has an event listener that listens for a click, when clicked, it will perfom a function, the function being it will display a value += index
+//Listens for an operator e.g multiplication divison, subtraction, addition then adds it onto the screen. Also mainly used to display the clicked operator onto the screen. Determines/pulls the value of the button that was clicked.
+function Operators(htmlObj, index) {  //The operators are assigned an event listener
+    htmlObj.addEventListener("click", function() { // The htmlObj has an event listener that listens for a click, when clicked, it will perfom a function, the function being it will add whatever was clicked onto the display/screen of the calculator. 
         display.value += index;  // Adds a value to the current value of the variable
     });
 }
-
-//  For operators, it runs the same code over and over again, registers that you clicked/put an operator (+,-,×,÷) and enters it into the "equation"
-for (var i = 0; i < operators.length; i++) {
-    assignEventListenerOperator(operators[i], operators[i].value);
-}
-// For numbers 1 through 9, it will run the same code over and over again, registers that you clicked/put in a number 1-9 and enters it into the "equation"
+// For numbers 0 through 9, it will run the same code over and over again. This will also determine how many different things are in each class. 
 for (var i = 0; i < numbers.length; i++) {
-    assignEventListenerNumber(numbers[i], numbers[i].value);
+    Numbers(numbers[i], numbers[i].value);
 }
 
-//Calculates the math inputed in the screen upon equal button click
-if (equal.addEventListener("click", function() { // If there are actual values/applicable values it will calculate all of it, and then appear on the display
-        display.value = eval(display.value)
-    }));
+//  For operators, it runs the same code over and over again, registers that you clicked/put an operator (+,-,×,÷).
+for (var i = 0; i < operators.length; i++) {
+    Operators(operators[i], operators[i].value);
+}
+
+//Calculates the math inputed in the screen/on the screen currently upon clicking the equal button. 
+equal.addEventListener("click", function() { // If there are actual values/applicable values it will calculate all of it, and then appear on the display
+        display.value = eval(display.value);
+    });
 
 //Clears the screen/display when the "CE" button is clicked 
 clear.addEventListener("click", function() { // Basically is a clear button, when clicked it will perform a function, the function is to change the display value to " " which is nothing. 
     display.value = "" 
 })
 
-// Puts all the numbers currently on the screen/display through an equation to generate the mean/avg 
+// Puts all the numbers and operators currently on the screen/display through an equation to generate the mean/avg 
 var mean = document.getElementById("mean");   // Makes everything with the id mean into the variable "mean".
-mean.addEventListener("click", function() {   // Mean is an event listener now, that "listens" for a click and will perform a function inside of the curly brackets
-    var ans;   // Ans will show up on the variable display
+mean.addEventListener("click", function() {   // Mean is an event listener now, that "listens" for a click and will perform a function inside of the curly bracket
+var ans;   // Ans will show up on the variable display
     ans = eval(display.value); // Eval calculates the math put into the display
     ans = ans / ((display.value.length / 2) + 0.5);  // Checks the string length of the display, divides it by 2, then add 0.5
-    display.value = ans // The display's value equals the answer
-
-    // console.log("it works")
+    display.value = ans // When you click the equal sign on an applicable math equation/problem it is put through the eval math function which then outputs an answer
+    // console.log("test")
 });
+    
