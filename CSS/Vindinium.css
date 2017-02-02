@@ -1,0 +1,117 @@
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+#vindiniumTitle {
+    display: block;
+    font-family: "Permanent Marker";
+    font-size: 50px;
+    line-height: 50px;
+    color: #98FB98;
+    position: absolute;
+    top: 100px;
+    left: 660px;
+}
+.hidden {
+    display: none;
+}
+.visible {
+  
+}
+#Title {
+    font-family: "gt_walsheim_regular";
+    font-size: 35px;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    padding:10px 10px;
+    width: 1000px;
+    line-height: 75px;
+    position: absolute;
+    top: 125px;
+    left: 52.5px;
+    text-align: right;
+}
+.TitleHover:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+    font-size: 35px;
+    line-height: 75px;
+}
+.selectedTitleHeader {
+    font-family: "gt_walsheim_regular";
+    font-size: 35px;
+    color: #F08080;
+    text-decoration: underline;
+}
+.selectedHeader {
+    font-family: "gt_walsheim_regular";
+    font-size: 30px;
+    color: #F08080;
+    text-decoration: underline;
+}
+.allHeaders:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+    font-size: 25px;
+}
+#generalInfo {
+     margin: 0px 300px 0px 0px;
+}
+#generalInfoSubHeaders {
+    position: absolute;
+    top: 212.5px;
+    left: 100px;
+    font-family: "gt_walsheim_regular";
+    font-size: 26.5px;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    padding:10px 10px;
+    width: 300px;
+    line-height: 50px;
+}
+#botAlexSubHeaders {
+    position: absolute;
+    top: 212.5px;
+    left: 100px;
+    font-family: "gt_walsheim_regular";
+    font-size: 26.5px;
+    color: white;
+    vertical-align: middle;
+    align-items: center;
+    padding:10px 10px;
+    width: 250px;
+    line-height: 50px;
+}
+#text {
+    font-family: "gt_walsheim_regular";
+    font-size: 20px;
+    color: #87CEFA;
+    position: absolute;
+    top: 225px;
+    left: 425px;
+    width: 700px;
+}
+#botAlex:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+    font-size: 35px;
+    line-height: 75px;
+}
+#generalInfo:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+    font-size: 35px;
+    line-height: 75px;
+}
+#textAi {
+    font-family: "gt_walsheim_regular";
+    font-size: 20px;
+    color: #87CEFA;
+    position: absolute;
+    top: 450px;
+    left: 475px;
+    width: 700px;
+}

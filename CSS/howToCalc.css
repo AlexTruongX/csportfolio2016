@@ -1,3 +1,4 @@
+
 body {
     overflow: hidden;
 }
@@ -38,7 +39,6 @@ body {
     padding:10px 10px;
     width: 100px;
     line-height: 50px;
-
 }
 #jsHeaders {
     display: none;

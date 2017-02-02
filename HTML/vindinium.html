@@ -1,41 +1,71 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title> </title>
-           <link rel="stylesheet" href="../CSS/mainstyle.css" type="text/css" />
-    </head>
-    <body>
+
+<head>
+    <title> </title>
+    <link rel="stylesheet" href="../CSS/mainstyle.css" type="text/css" />
+    <link rel="stylesheet" href="../CSS/Vindinium.css" type="text/css" />
+</head>
+
+<body>
     <!-- Navbar Starts Here -->
-<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Permanent+Marker" />
     <style>
         li {
             font-family: Permanent Marker, Serif;
         }
-        
     </style>
     <ul id="navbar">
         <li> <a href="../HTML/index.html"> Home </a></li>
-        <li> <a href="../HTML/aboutme.html"> About Me </a></li> 
+        <li> <a href="../HTML/aboutme.html"> About Me </a></li>
         <li> <a href="../HTML/hardware.html"> Hardware </a></li>
-        <li> <a href="../HTML/calculator.html"> Calculator </a></li> 
+        <li> <a href="../HTML/calculator.html"> Calculator </a></li>
         <li> <a href="../HTML/to-do-list.html"> To-do-List </a></li>
-        <li> <a href="../HTML/vindinium.html"> Vindinium </a></li> 
+        <li> <a href="../HTML/vindinium.html"> Vindinium </a></li>
         <li> <a href="../HTML/bigproject.html"> Big Project </a></li>
-          <li class="dropdown">
-    <a href="../HTML/howTo.html" class="dropbtn">How-To</a>
-    <div class="dropdown-content">
-      <a href="../HTML/howToHardware.html" id="howToDropdownText">Hardware</a>
-      <a href="../HTML/howToCalc.html" id="howToDropdownText">Calculator</a>
+        <li class="dropdown">
+            <a href="../HTML/howTo.html" class="dropbtn">How-To</a>
+            <div class="dropdown-content">
+                <a href="../HTML/howToHardware.html" id="howToDropdownText">Hardware</a>
+                <a href="../HTML/howToCalc.html" id="howToDropdownText">Calculator</a>
+            </div>
+    </ul>
+    </ul>
+    <div id="navbardesignvindinium"></div>
+    <span id="vindiniumTitle">Vindinium</span>
+    <span id="Title">
+        <span id="generalInfo" class="TitleHover" style="width: 0px;">
+            General Info
+        </span>
+        <span id="botAlex" class="TitleHover" style="width: 140px;">
+            Bot Alex
+        </span>
+    </span>
+
+    <div class = "hidden" id="generalInfoSubHeaders">
+            <div  class = "allHeaders" id = "whatIsAi">What is AI?</div>
+            <div  class = "allHeaders" id = "vindInfo">What is Vindinium?</div>
+            <div  class = "allHeaders" id = "whatDoesThisDo">What does _ do?</div>
     </div>
-    </ul>
-    </ul>
 
-
-            <div id="navbardesignvindinium"></div>
-
+    <div class="hidden" id="botAlexSubHeaders">
+        <div id="starting" class="allHeaders">Start</div>
+        <div id="taskDecider" class="allHeaders">Task Decider</div>
+        <div id="attacking" class = "allHeaders" >Attacking</div>
+        <div id="taverns" class = "allHeaders">Taverns</div>
+        <div id="mining" class = "allHeaders">Mining</div>
+        <div id="blitzing" class = "allHeaders">Blitzing</div>
+        <div id="winning" class = "allHeaders">Winning</div>
+        <div id="extras" class = "allHeaders">Extras</div>
+        
+    </div>
+    <span id="text"></span>
+    <span id="photo"></span>
+    <span id="textAi"></span>
     <!-- Navbar Ends Here -->
-    
-    
-    
-    </body>
+
+
+    <script src="../JavaScript/Vindinium.js " type="text/JavaScript"></script>
+</body>
+
 </html>
