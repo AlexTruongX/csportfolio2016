@@ -128,8 +128,8 @@ function attackInfo() {
     reset();
     hideGeneralInfo();
     attacking.className = "selectedHeader";
-    text.innerHTML = "<p style='position: absolute; top: -10px; left: 325px; font-size: 15px; width: 450px;'>I created an if statement with task strictly equaling \"attack\". I put a console log under this if statement so that I know when it will be attacking. In addition to that, I also needed a way for my bot to path to that bot right? I set myDir (my direction). </p>";
-    text2.innerHTML = "<p style='position: absolute; top: -10px; left: 590px; font-size: 15px; width: 450px;'>I decided to name our new variable closestBot, we made closestBot equal enemyBots[0] it will then in turn access the value of the first element in enemyBots[0]</p>";
+    text.innerHTML = "<p style='position: absolute; top: -10px; left: 325px; font-size: 15px; width: 450px;'>I created an if statement that checks if task equals \"attack\". If it does then it will console.log that it has run the attack function and will be attacking the nearest bot. In addition to that, I also needed a way for my bot to path to the closest enemy bot to do exactly that I set myDir (my direction) from my position to the position of the closest enemy bot.  </p>";
+    text2.innerHTML = "<p style='position: absolute; top: -10px; left: 590px; font-size: 15px; width: 450px;'>I decided to name our new variable closestBot, we made closestBot equal enemyBots[0] it will then in turn access the value of the first element in enemyBots[0]. The for loop will check each bots position relative to mine and see which enemy bot is closer to me. If it's within 2 spaces it will attack. </p>";
     photo.innerHTML = "<img style = 'position: absolute; top: 230px; left: 300px; width: 423px; height: 85px;' src = 'http://image.prntscr.com/image/fee86b46725d44afb6549189c1e7adcd.png'>";
     photo2.innerHTML = "<img style = 'position: absolute; top: 450px; left: 300px; width: 743.16px; height: 69.96px;' src = 'http://image.prntscr.com/image/e66078c1e8504ab1b16539805cdd4677.png'>";
 }
@@ -138,7 +138,7 @@ function tavernsInfo() {
     reset();
     hideGeneralInfo();
     taverns.className = "selectedHeader";
-    text.innerHTML = "<p style='position: absolute; top: -10px; left: 435px; font-size: 15px; width: 450px;'>So we created an if statement and made task stricly equal to \"tavern\" and then declared variable closestTavern equal to bot.taverns[0]. I then created a for loop that set i=0, and if i was greater than the amount of taverns there are it would add 1 everytime. Then we have a if codeblock that finds the distance from my position to the closestTavern and if it's greater than the distance from my position to the other taverns it will set the closestTavern equal to bot.taverns[i]. If all goes swell it will set my direction towards the closestTavern and log that I am going to the nearest tavern.  </p>";
+    text.innerHTML = "<p style='position: absolute; top: -10px; left: 435px; font-size: 15px; width: 450px;'>So we created an if statement to check if task was equal \"tavern\" and then declared variable closestTavern equal to bot.taverns[0]. I then created a for loop that set i=0, and if i was greater than the amount of taverns there are it would add 1 everytime. The for loop will basically check each tavern's position relative to mine and determine the closest tavern to my position. Then we have a if codeblock that finds the distance from my position to the closestTavern and if it's greater than the distance from my position to the other taverns it will set the closestTavern equal to bot.taverns[i]. If all goes swell it will set my direction towards the closestTavern and log that I am going to the nearest tavern.  </p>";
     text2.innerHTML = "";
     photo.innerHTML = "<img style='position: absolute; top: 230px; left: 300px; width: 543.75px;'src='http://image.prntscr.com/image/f05e5f5557aa481fa3898c4beb0bbfab.png'>";
     photo2.innerHTML = "";
@@ -148,7 +148,7 @@ function miningInfo() {
     reset();
     hideGeneralInfo();
     mining.className = "selectedHeader";
-    text.innerHTML = "<p style='position: absolute; top: -10px; left: 540px; font-size: 15px; width: 450px;'>I created an if statement that had task strictly equal allMines. I then declared the variable closestMine = enemyMines[0]. I then created a for loop, and set i=0, and if  i is less than the amount of enemyMines it will run the if codeblock. The distance from my position to the closestMine is greater than the distance from my position to enemyMines and it finds the path from my position to an enemyMine. If the if codeblock is true than closestMine will equal enemyMines[i].</p>";
+    text.innerHTML = "<p style='position: absolute; top: -10px; left: 540px; font-size: 15px; width: 450px;'>I created an if statement that checks if task equals allMines. I then declared the variable closestMine = enemyMines[0]. I then created a for loop, and set i=0, and if  i is less than the amount of enemyMines it will run the if codeblock. The distance from my position to the closestMine is greater than the distance from my position to enemyMines and it finds the path from my position to an enemyMine. If the if codeblock is true than closestMine will equal enemyMines[i].</p>";
     text2.innerHTML = "";
     photo.innerHTML = "<img style='position: absolute; top: 230px; left: 300px; width: 650px; height: 149.25px;' src='http://image.prntscr.com/image/cc10a33a11404ce888664f2d49ffc5a4.png'>";
     photo2.innerHTML = "";
@@ -158,8 +158,8 @@ function blitzInfo() {
     reset();
     hideGeneralInfo();
     blitzing.className = "selectedHeader";
-    text.innerHTML = "<p style='position: absolute; top: -10px; left: 335px; font-size: 15px; width: 450px;'>If my task is stricly equal to blitzMode it will set my direction from my position to my blitzTarget's position. I also set up a console log because I wanted to know when blitz mode activated. </p>";
-    text2.innerHTML = "<p style='position: absolute; top: -10px; left: 280px; font-size: 15px; width: 450px;'>I declare my variable blitzTarget equal to enemyBots[0]. And then created a for loop that set i equal to 0. If the number of enemyBots is greater than i it will run the if codeblock. If my blitzTargets mineCount is less than enemyBots[i] minecount is true then blitzTarget = enemyBots[i]. </p>";
+    text.innerHTML = "<p style='position: absolute; top: -10px; left: 335px; font-size: 15px; width: 450px;'>The if statement will check to see if task equals blitzMode then it will set the direction from my position to the blitzTarget's position. I also set up a console log because I wanted to know when blitz mode activated. </p>";
+    text2.innerHTML = "<p style='position: absolute; top: -10px; left: 280px; font-size: 15px; width: 450px;'>I declare my variable blitzTarget equal to enemyBots[0]. And then created a for loop that set i equal to 0. The for loop will basically look for the position of the person with the most mines currently relative to mine. If the number of enemyBots is greater than i it will run the if codeblock. If my blitzTargets mineCount is less than enemyBots[i] minecount is true then blitzTarget = enemyBots[i]. </p>";
     photo.innerHTML = "<img style = 'position: absolute; top: 230px; left: 300px; width: 450px; height: 85px;' src = 'http://image.prntscr.com/image/55ae14c8a6774e58923559d1d4d49469.png'>";
     photo2.innerHTML = "<img style = 'position: absolute; top: 450px; left: 300px; ' src = 'http://image.prntscr.com/image/3ae08b64b19948469ff244a63033101e.png'>";
 }
