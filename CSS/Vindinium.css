@@ -87,7 +87,7 @@ html {
 }
 #text {
     font-family: "gt_walsheim_regular";
-    font-size: 20px;
+    font-size: 15px;
     color: #87CEFA;
     position: absolute;
     top: 225px;
@@ -106,7 +106,7 @@ html {
     font-size: 35px;
     line-height: 75px;
 }
-#textAi {
+#text2 {
     font-family: "gt_walsheim_regular";
     font-size: 20px;
     color: #87CEFA;
@@ -114,4 +114,17 @@ html {
     top: 450px;
     left: 475px;
     width: 700px;
+}
+#fullCodeBackground {
+    background-color: white;
+    height: 1600px;
+    width:800px;
+    position: absolute;
+    top: 250px;
+    left: 315px;
+    z-index: -2;
+    border-radius: 5px;
+}
+#fullCodeText {
+    font-size: 10px;
 }
