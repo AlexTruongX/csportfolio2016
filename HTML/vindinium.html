@@ -34,13 +34,12 @@
     <div id="navbardesignvindinium"></div>
     <span id="vindiniumTitle">Vindinium</span>
     <span id="Title">
-        <span id="generalInfo" class="TitleHover" style="width: 0px;">
-            General Info
-        </span>
-    <span id="botAlex" class="TitleHover" style="width: 140px;">
-            Bot Alex
-        </span>
+        <span id="generalInfo" class="TitleHover" style="width: 0px;">General Info</span>
+        <span id="botAlex" class="TitleHover" style="width: 140px;">Bot Alex</span>
     </span>
+        <center><span id="howToHover">For optimal viewing experience please use 125% Zoom. (hint: ctrl + plus)</span></center>
+    <div class="hidden" id="hoverOverVind">Hover over the image to get an enlarged view. </div>
+    <div class="hidden" id="hoverOverBoth">Hover over the image to get an enlarged view, and the text to get a better look at it.</div>
 
     <div class="hidden" id="generalInfoSubHeaders">
         <div class="allHeaders" id="whatIsAi">What is AI?</div>
@@ -56,16 +55,15 @@
         <div class="allHeaders" id="blitzing">Blitzing</div>
         <div class="allHeaders" id="fullCode">Full Code</div>
     </div>
-    <span id="text"></span>
+    <div id="textHover"><span id="text"></span></div>
     <span id="photo"></span>
     <span id="text2"></span>
     <span id="photo2"></span>
     <div class="hidden" id="fullCodeStuff">
         <div id="fullCodeBackground">
-            <div id = "testingDiv">
-                <code >
+            <code>
     <pre id="fullCodeText">
-        var Bot = require('bot'); //Declaring variable Bot which requires everything in the folder called "bot"
+var Bot = require('bot'); //Declaring variable Bot which requires everything in the folder called "bot"
 var PF = require('pathfinding'); //Declaring variable PF which requires everything in the folder called "pathfinding"
 var bot = new Bot('YOUR_KEY_HERE', 'training', 'http://vindinium.org'); //Put your bot's code here and change training to Arena when you want to fight others.
 // var bot = new Bot('YOUR_KEY_HERE', 'arena', 'PRIVATE_SERVER_HERE'); //Put your bot's code here and change training to Arena when you want to fight others.
@@ -207,8 +205,8 @@ bot.runGame();
 
     </pre>
 </code>
-            </div>
         </div>
+    </div>
     </div>
     <!-- Navbar Ends Here -->
 

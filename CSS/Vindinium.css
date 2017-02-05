@@ -1,6 +1,5 @@
-html {
-    overflow-x: hidden;
-    overflow-y: hidden;
+html::-webkit-scrollbar {
+    display: none;
 }
 
 #vindiniumTitle {
@@ -13,19 +12,20 @@ html {
     top: 100px;
     left: 660px;
 }
+
 .hidden {
     display: none;
 }
-.visible {
-  
-}
+
+.visible {}
+
 #Title {
     font-family: "gt_walsheim_regular";
     font-size: 35px;
     color: white;
     vertical-align: middle;
     align-items: center;
-    padding:10px 10px;
+    padding: 10px 10px;
     width: 1000px;
     line-height: 75px;
     position: absolute;
@@ -33,32 +33,103 @@ html {
     left: 52.5px;
     text-align: right;
 }
+
 .TitleHover:hover {
     color: #F08080;
     font-family: "gt_walsheim_regular";
     font-size: 35px;
     line-height: 75px;
 }
+
 .selectedTitleHeader {
     font-family: "gt_walsheim_regular";
     font-size: 35px;
     color: #F08080;
     text-decoration: underline;
 }
+
 .selectedHeader {
     font-family: "gt_walsheim_regular";
     font-size: 30px;
     color: #F08080;
     text-decoration: underline;
 }
+
 .allHeaders:hover {
     color: #F08080;
     font-family: "gt_walsheim_regular";
     font-size: 25px;
 }
-#generalInfo {
-     margin: 0px 300px 0px 0px;
+
+#text {
+    font-family: "gt_walsheim_regular";
+    font-size: 15px;
+    color: gray;
+    position: absolute;
+    top: 225px;
+    left: 425px;
+    width: 700px;
+    height: 400px;
 }
+
+#text2 {
+    font-family: "gt_walsheim_regular";
+    font-size: 17.5px;
+    color: gray;
+    position: absolute;
+    top: 450px;
+    left: 475px;
+    width: 700px;
+}
+
+#howToHover {
+    font-family: "gt_walsheim_regular";
+    font-size: 10.5px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0 auto;
+    color: #CD5C5C; 
+    position: relative;
+    top: -35px;
+}
+
+#hoverOverBoth {
+    font-family: "gt_walsheim_regular";
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0 auto;
+    color: #CD5C5C;
+    position: absolute;
+    top: 192.5px;
+    left: 490px;
+}
+
+#hoverOverVind {
+    font-family: "gt_walsheim_regular";
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 15px;
+    margin: 0 auto;
+    color: #CD5C5C;
+    position: absolute;
+    top: 167.5px;
+    left: 631px;
+}
+
+
+/* Genearl Info stuff */
+
+#generalInfo {
+    margin: 0px 300px 0px 0px;
+}
+
 #generalInfoSubHeaders {
     position: absolute;
     top: 212.5px;
@@ -68,10 +139,21 @@ html {
     color: white;
     vertical-align: middle;
     align-items: center;
-    padding:10px 10px;
+    padding: 10px 10px;
     width: 300px;
     line-height: 50px;
 }
+
+#generalInfo:hover {
+    color: #F08080;
+    font-family: "gt_walsheim_regular";
+    font-size: 35px;
+    line-height: 75px;
+}
+
+
+/*Bot Alex Info */
+
 #botAlexSubHeaders {
     position: absolute;
     top: 212.5px;
@@ -81,50 +163,353 @@ html {
     color: white;
     vertical-align: middle;
     align-items: center;
-    padding:10px 10px;
+    padding: 10px 10px;
     width: 250px;
     line-height: 50px;
 }
-#text {
-    font-family: "gt_walsheim_regular";
-    font-size: 15px;
-    color: #87CEFA;
-    position: absolute;
-    top: 225px;
-    left: 425px;
-    width: 700px;
-}
+
 #botAlex:hover {
     color: #F08080;
     font-family: "gt_walsheim_regular";
     font-size: 35px;
     line-height: 75px;
 }
-#generalInfo:hover {
-    color: #F08080;
-    font-family: "gt_walsheim_regular";
-    font-size: 35px;
-    line-height: 75px;
-}
-#text2 {
-    font-family: "gt_walsheim_regular";
-    font-size: 20px;
-    color: #87CEFA;
+
+
+/* Vindinium Image*/
+
+#vindImg {
+    background-color: #B7BDC1;
+    border: black 1px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 1.5s ease;
+    transform: scale(1);
+    width: 441.54px;
+    height: 137.25px;
     position: absolute;
-    top: 450px;
-    left: 475px;
-    width: 700px;
+    top: 230px;
+    left: 300px;
 }
-#fullCodeBackground {
+
+#vindImg:hover {
+    color: black;
+    border: black 3px solid;
     background-color: white;
-    height: 1600px;
-    width:800px;
+    transition: all 1.5s ease;
+    transform: scale(1.5);
+}
+
+
+/*Start Information and Images*/
+
+#startInfo {
+    background-color: #B7BDC1;
+    border: black 3px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    line-height: 20px;
+    height: 400px;
+    transition: all 1.5s ease;
+    transform: scale(1);
+}
+
+#startInfo:hover {
+    color: black;
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+#startImg {
+    background-color: #B7BDC1;
+    border: black 1px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 1.5s ease;
+    transform: scale(1);
+    width: 441.54px;
+    height: 137.25px;
+    position: absolute;
+    top: 230px;
+    left: 300px;
+}
+
+#startImg:hover {
+    color: black;
+    border: black 3px solid;
+    background-color: white;
+    transition: all 1.5s ease;
+    transform: scale(1.5);
+}
+
+
+/* Task decider Information and Img */
+
+#taskDeciderInfo {
+    background-color: #B7BDC1;
+    border: black 3px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    line-height: 20px;
+    height: 480px;
+    transition: all 1.5s ease;
+    transform: scale(1);
+}
+
+#taskDeciderInfo:hover {
+    color: black;
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+#taskDeciderImg {
+    background-color: #B7BDC1;
+    border: black 1px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 1.5s ease;
+    transform: scale(1);
+    position: absolute;
+    top: 230px;
+    left: 300px;
+}
+
+#taskDeciderImg:hover {
+    color: black;
+    border: black 3px solid;
+    background-color: white;
+    transition: all 1.5s ease;
+    transform: scale(1.5);
+}
+
+
+/*Attacking Information and Images*/
+
+.attackInfo {
+    background-color: #B7BDC1;
+    border: black 3px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    line-height: 20px;
+    height: 120px;
+    transition: all 1.5s ease;
+    transform: scale(1);
+}
+
+.attackInfo:hover {
+    color: black;
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+.attackInfo2 {
+    background-color: #B7BDC1;
+    border: black 3px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    line-height: 20px;
+    height: 100px;
+    transition: all 1.5s ease;
+    transform: scale(1);
+}
+
+.attackInfo2:hover {
+    color: black;
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+.attackImg {
+    background-color: #B7BDC1;
+    border: black 1px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 1.5s ease;
+    transform: scale(1);
+    position: absolute;
+    top: 230px;
+    left: 300px;
+}
+
+.attackImg:hover {
+    color: black;
+    border: black 3px solid;
+    background-color: white;
+    transition: all 1.5s ease;
+    transform: scale(1.5);
+}
+
+
+/*Taverns information and Images*/
+
+#tavernsInfo {
+    background-color: #B7BDC1;
+    border: black 3px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    line-height: 20px;
+    height: 240px;
+    transition: all 1.5s ease;
+    transform: scale(1);
+}
+
+#tavernsInfo:hover {
+    color: black;
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+#tavernsImg {
+    background-color: #B7BDC1;
+    border: black 1px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 1.5s ease;
+    transform: scale(1);
+    position: absolute;
+    top: 230px;
+    left: 300px;
+}
+
+#tavernsImg:hover {
+    color: black;
+    border: black 3px solid;
+    background-color: white;
+    transition: all 1.5s ease;
+    transform: scale(1.5);
+}
+
+
+/*Mining Information and Images*/
+
+#miningInfo {
+    background-color: #B7BDC1;
+    border: black 3px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    line-height: 20px;
+    height: 160px;
+    transition: all 1.5s ease;
+    transform: scale(1);
+}
+
+#miningInfo:hover {
+    color: black;
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+#miningImg {
+    background-color: #B7BDC1;
+    border: black 1px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 1.5s ease;
+    transform: scale(1);
+    position: absolute;
+    top: 230px;
+    left: 300px;
+}
+
+#miningImg:hover {
+    color: black;
+    border: black 3px solid;
+    background-color: white;
+    transition: all 1.5s ease;
+    transform: scale(1.5);
+}
+
+
+/*Blitz Information and Images*/
+
+.blitzInfo {
+    background-color: #B7BDC1;
+    border: black 3px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    line-height: 20px;
+    height: 80px;
+    transition: all 1.5s ease;
+    transform: scale(1);
+}
+
+.blitzInfo:hover {
+    color: black;
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+.blitzInfo2 {
+    background-color: #B7BDC1;
+    border: black 3px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    line-height: 20px;
+    height: 140px;
+    transition: all 1.5s ease;
+    transform: scale(1);
+}
+
+.blitzInfo2:hover {
+    color: black;
+    background-color: white;
+    transition: all 1.5s ease;
+}
+
+.blitzImg {
+    background-color: #B7BDC1;
+    border: black 1px solid;
+    border-radius: 4px;
+    margin-bottom: 1em;
+    transition: all 1.5s ease;
+    transform: scale(1);
+    position: absolute;
+    top: 230px;
+    left: 300px;
+}
+
+.blitzImg:hover {
+    color: black;
+    border: black 3px solid;
+    background-color: white;
+    transition: all 1.5s ease;
+    transform: scale(1.5);
+}
+
+
+/* Full code information */
+
+#fullCodeBackground {
+    background-color: #B7BDC1;
+    border: black 2px solid;
+    border-radius: 4px;
+    overflow: scroll;
+    height: 400px;
+    width: 800px;
     position: absolute;
     top: 250px;
-    left: 315px;
-    z-index: -2;
+    left: 340px;
     border-radius: 5px;
+    transition: all 3s ease;
+    transform: scale(1);
 }
+
+#fullCodeBackground:hover {
+    border: black 3px solid;
+    border-radius: 5px;
+    background-color: white;
+    transition: all 3s ease;
+    transform: scale(1.1);
+}
+
 #fullCodeText {
+    font-family: "gt_walsheim_regular";
     font-size: 10px;
+    position: relative;
+    left: 2px;
+}
+
+#fullCodeStuff {
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
