@@ -2238,3 +2238,13 @@ select {
 	top: 232.5px;
 	left: 1060px;
 }
+#musicTitle {
+    display: block;
+    font-family: "Permanent Marker";
+    font-size: 50px;
+    line-height: 50px;
+    color: #98FB98;
+    text-align: center;
+    position: relative;
+    top: -575px;
+}
