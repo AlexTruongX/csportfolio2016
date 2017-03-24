@@ -46,9 +46,8 @@ clear.addEventListener("click", function() { // Basically is a clear button, whe
 var mean = document.getElementById("mean");   // Makes everything with the id mean into the variable "mean".
 mean.addEventListener("click", function() {   // Mean is an event listener now, that "listens" for a click and will perform a function inside of the curly brackets
     // console.log("it works")
-});
-    
 var ans;   // Ans will show up on the variable display
     ans = eval(display.value); // Eval calculates the math put into the display
     ans = ans / ((display.value.length / 2) + 0.5);  // Checks the string length of the display, divides it by 2, then add 0.5
     display.value = ans // When you click the equal sign on an applicable math equation/problem it is put through the eval math function which then outputs an answer
+});
