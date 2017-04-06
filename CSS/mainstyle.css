@@ -1972,6 +1972,10 @@ body>div {
 	left: 210px;
 }
 
+
+
+
+
 .dropdown-content {
 	display: none;
 	position: fixed;
@@ -1993,6 +1997,8 @@ body>div {
 	background-color: transparent;
 	line-height: 50px;
 	vertical-align: middle;
+	height: 100px;
+	width: 100px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -2002,7 +2008,6 @@ body>div {
 }
 
 #howToDropdownText {
-	color: black;
 	font-family: "gt_walsheim_regular";
 	position: relative;
 	font-size: 14px;
@@ -2117,6 +2122,13 @@ select {
 	height: 250px;
 	left: 50px;
 }
+#howToPageImgDirectBP {
+	position: relative;
+	width: 455.333333px;
+	height: 250px;
+	left: 180px;
+	top: 50px;
+}
 
 #howToTitleHardware {
 	display: inline-block;
@@ -2159,6 +2171,14 @@ select {
 	position: relative;
 	top: -260px;
 	left: 22.2%;
+}
+#howToMainBPTitle {
+	color: #FFFACD;
+	font-family: "gt_walsheim_regular";
+	font-size: 17px;
+	position: relative;
+	top: 50px;
+	left: -47.5%;
 }
 
 #howToMainHeader {
@@ -2236,6 +2256,14 @@ select {
 	font-size: 17px;
 	position: absolute;
 	top: 232.5px;
+	left: 1060px;
+}
+#howToBPTitle {
+	color: #FFFACD;
+	font-family: "gt_walsheim_regular";
+	font-size: 17px;
+	position: absolute;
+	top: 300px;
 	left: 1060px;
 }
 #musicTitle {

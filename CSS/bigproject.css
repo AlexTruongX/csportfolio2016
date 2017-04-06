@@ -1,0 +1,303 @@
+html,
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#gameBox {
+    width: 600px;
+    height: 600px;
+    background-color: #696969;
+    border-radius: 4px;
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#menu {
+    color: white;
+    font-family: "Permanent Marker";
+    font-size: 30px;
+    background-color: black;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: .75;
+}
+
+#menuText {
+    position: absolute;
+    font-size: 30px;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: inline;
+}
+
+.levelOptionsUnSelectable {
+    pointer-events: none;
+}
+
+.levelOptions {
+    text-decoration: none;
+    color: white;
+}
+
+.mainpageIMG {
+    opacity: .5;
+    z-index: 40;
+}
+
+img {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+}
+
+#startScreen {
+    background-color: black;
+    border-radius: 4px;
+    color: white;
+    width: 550px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#startScreen:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(http://www.zingerbug.com/Backgrounds/background_images/teal_maze_on_black_background_seamless.jpg);
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#startOptions {
+    position: relative;
+    top: 175px;
+}
+
+#newGame {
+    font-family: "Permanent Marker";
+    border-radius: 3px;
+    font-size: 40px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding-right: 65px;
+    padding-left: 65px;
+}
+
+#newGame:hover {
+    background-color: #778899;
+    border-radius: 4px;
+    margin: 50px;
+}
+
+#loadGame {
+    font-family: "Permanent Marker";
+    font-size: 40px;
+    border-radius: 3px;
+    position: relative;
+    width: 100px;
+    height: 50px;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+    padding-right: 65px;
+    padding-left: 65px;
+}
+
+#loadGame:hover {
+    background-color: #778899;
+    border-radius: 4px;
+    margin: 50px;
+}
+
+#save {
+    font-size: 30px;
+}
+
+#levelOne {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#levelSelectTwo {
+    font-size: 29px;
+}
+
+.lockLevelOne {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    width: 3.5em;
+}
+
+.keyLevelOne {
+    position: absolute;
+    width: 3.5em;
+}
+
+#levelsSpan {
+    margin: 0;
+    padding: 0;
+}
+
+#startTitle {
+    position: absolute;
+    top: -45%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#splash {
+    position: absolute;
+    height: 550px;
+    width: 550px;
+    top: 4%;
+    left: 4%;
+    margin-right: -50%;
+    border-radius: 4px;
+    z-index: 40;
+    background: url(./images/escapeSplash.jpg) no-repeat;
+}
+
+#prelevelOneDIV {
+    color: white;
+    font-family: "Permanent Marker";
+    font-size: 30px;
+    width: 485px;
+    height: 210px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    padding: 170px 32.5px 170px 32.5px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.kamikazebackground {
+    height: 550px;
+    width: 550px;
+    border-radius: 4px;
+}
+
+.locklevel2 {
+    position: absolute;
+    width: 6%;
+    height: 6%;
+    left: 36%;
+    top: 39%;
+}
+
+.lock2level2 {
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    left: 69%;
+    top: 54%;
+}
+
+.lock3level2 {
+    position: absolute;
+    width: 2%;
+    height: 2%;
+    left: 54%;
+    top: 20.5%;
+}
+
+.keylevel2 {
+    position: absolute;
+    width: 6%;
+    height: 8%;
+    left: 39%;
+    top: 15%;
+}
+
+.key2level2 {
+    position: absolute;
+    width: 4%;
+    height: 6%;
+    left: 57%;
+    top: 25%;
+}
+
+.key3level2 {
+    position: absolute;
+    width: 3%;
+    height: 4%;
+    left: 4%;
+    top: 45%;
+}
+
+.bossLevelLock1 {
+    position: absolute;
+    left: 5.9em;
+    top: 10.5em;
+    width: 2em;
+    height: 3em;
+    z-index: 2;
+    transform: rotate(-9deg);
+}
+
+.bossLevelLock2 {
+    position: absolute;
+    right: 5.9em;
+    top: 10.5em;
+    width: 2em;
+    height: 3em;
+    z-index: 2;
+    transform: rotate(9deg);
+}
+
+.bossLevelLock3 {
+    position: absolute;
+    top: 10.5em;
+    width: 4em;
+    height: 4em;
+    z-index: 2;
+    top: 30%;
+    left: 48%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
